@@ -258,7 +258,7 @@ textarea{
     margin-right: 7%;
 }
 
-@media screen (max-width : 800px) {
+@media screen and (max-width : 800px) {
 
     body,html {
     width: fit-content;
