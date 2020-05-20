@@ -380,5 +380,13 @@ textarea{
         align-items: center;
         margin-bottom: 3%;
     }
-
+    input{
+        height: 30px;
+        flex: 0 1 auto;
+        width: 80%;
+        height: 100%;
+        background-color: white;
+        color: black;
+    }
+    
 }
