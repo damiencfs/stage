@@ -157,3 +157,40 @@ h1 {
         font-weight: 400;
       }
     }
+
+    @media screen and (max-width : 400px) {
+
+      .actus{
+          height: 100%;
+          width: 90%;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+      }
+      .actus img{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 3%;
+          width: 80%;
+      }
+      .actus p {
+         margin: 3%;
+         color: white;
+      }
+      .actus h3 {
+          color: white;
+          font-size: medium;
+          display: flex;
+          justify-content: flex-start;
+          margin-left: 3%;
+      }
+      .liens {
+          display: inline-block;
+          flex: 0 1 auto;
+          text-decoration: none;
+          color: white;
+          font-size: x-small;
+          padding: 2%;
+      }
+  }
