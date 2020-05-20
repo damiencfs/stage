@@ -191,6 +191,11 @@ h1 {
           text-decoration: none;
           color: white;
           font-size: x-small;
-          padding: 2%;
+          padding: 50px;
+          padding: 3%;
       }
+
+    #menu-d .liens {
+      padding-right: 10px;
+    }
   }
