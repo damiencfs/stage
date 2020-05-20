@@ -262,7 +262,7 @@ textarea{
 
 
 
-@media screen and (max-width : 800px) {
+@media screen and (min-width : 401px)and (max-width : 800px) {
 
     body,html {
     width: fit-content;
@@ -368,4 +368,17 @@ textarea{
         justify-content: center;
         align-items: center;
     }
+}
+
+@media screen and (max-width : 400px) {
+
+    #formulaire {
+        width: 80%;
+        clear: both;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+
 }
