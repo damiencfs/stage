@@ -195,6 +195,9 @@ h1 {
           padding: 3%;
       }
 
+    #menu-g .liens{
+      padding-left: 10px;
+    }
     #menu-d .liens {
       padding-right: 10px;
     }
