@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Maserati</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" media="screen" href="style.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+    <body>
+        <script>
+            AOS.init();
+          </script>
+
+        <div id="menu-g"> 
+            <a class="liens" href="histoire.html">Our story</a>
+             <a class="liens" href="modeles.html">Our cars</a>
+        </div>
+
+        <div id="menu-d"> 
+            <a class="liens" href="actu.html">News</a>
+             <a class="liens" href="contact.html">Contact us</a>
+             <a class="liens" href="../index.html">FR</a>
+        </div>
+
+        <div id="maserati">
+           <a href="index.html"><img id="logo" src="assets/img/logo-blanc.png"></a>
+        </div>
+        <div id="image-contact">
+            <p data-aos="fade-up" data-aos-duration="1500"> Maserati give a big importance to keep a good relation with customers. So that's why if you need further explanations, don't hesitate to contact us.</p>
+            <img src="assets/img/img-contact2.jpg">
+           
+        </div>
+        <h1>Contact us</h1>
+        <div id="formulaire">
+            <fieldset>
+            <form action="mail.php" method="post">
+                <label>Your surname : </label> <br/>
+                <input type="text" name="nom"/><br/>
+                <label>Your first name : </label><br/>
+                <input type="text" name="prenom"/><br/>
+                <label>Your email : </label><br/>
+                <input type="text" name="mail"/><br/>
+                <label>Your message : </label><br/>
+                <textarea rows="10" cols="35" name="message"></textarea><br/>
+                <input type="submit" value="Envoyer">
+
+            </form>
+            </fieldset> 
+        </div>
+        </body>
+        </html>
