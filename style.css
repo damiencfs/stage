@@ -258,6 +258,44 @@ textarea{
     margin-right: 7%;
 }
 
+#quizz input, h5{
+    margin-left: 10%;
+}
+
+h5{
+    font-size: 12pt;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+#quizz input {
+    margin-bottom : 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    background-color: white;
+    color: black;
+}
+
+#quizz input[type="submit"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+}
+
+#quizz a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1%;
+    font-size: 12pt;
+
+}
 @media screen and (max-width : 800px) {
 
     body,html {
@@ -364,6 +402,33 @@ textarea{
         justify-content: center;
         align-items: center;
     }
+    h5 {
+        font-size: 10pt;
+    }
+
+    #quizz input {
+        width: 20%;
+        flex-wrap: wrap;
+    }
+
+    #quizz input[type="submit"]{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40%;
+    }
+    #quizz a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        margin-top: 0;
+        margin-bottom: 1%;
+        font-size: 10pt;
+    
+    }
+    
 }
 
 @media screen and (max-width : 600px) {
