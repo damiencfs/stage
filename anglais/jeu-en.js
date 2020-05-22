@@ -26,7 +26,7 @@ var repq4="1926";
 
 var q5=document.getElementById('q5').value;
 var rep5=document.getElementById('rep5');
-var repq5="Bologne";
+var repq5="Bologna";
 
 var q6=document.getElementById('q6').value;
 var rep6=document.getElementById('rep6');
