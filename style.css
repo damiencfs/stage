@@ -442,6 +442,9 @@ h5{
         font-size: 10pt;
     
     }
+    #quizz a:hover {
+        color: black;
+    }
     .reponse {
         font-weight: 100;
         font-size: 10pt;
