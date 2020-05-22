@@ -264,8 +264,13 @@ textarea{
 
 h5{
     font-size: 12pt;
-    font-weight: 300;
     margin-top: 0;
+}
+
+.propositions {
+    font-size: 12pt;
+    margin-top: 0;
+    font-weight: 300;
 }
 
 #quizz input {
