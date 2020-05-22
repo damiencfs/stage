@@ -306,6 +306,10 @@ h5{
     font-size: 12pt;
     color: white;
 }
+
+#quizz h3 {
+    text-align: center;
+}
 @media screen and (max-width : 800px) {
 
     body,html {

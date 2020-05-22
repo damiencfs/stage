@@ -5,10 +5,34 @@ var reponse = document.getElementById('rep');
 reponse.addEventListener('click',recup);
 
 function recup() {
+
 var compteur=0;
-var q1= document.getElementById('q1').value;
+
+var q1=document.getElementById('q1').value;
 var rep1=document.getElementById('rep1');
 var repq1="7";
+
+var q2=document.getElementById('q2').value;
+var rep1=document.getElementById('rep2');
+var repq2="Alfieri";
+
+var q3=document.getElementById('q3').value;
+var rep3=document.getElementById('rep3');
+var repq3="Carlo";
+
+var q4=document.getElementById('q4').value;
+var rep4=document.getElementById('rep4');
+var repq4="1926";
+
+var q5=document.getElementById('q5').value;
+var rep5=document.getElementById('rep5');
+var repq5="Bologne";
+
+var q6=document.getElementById('q6').value;
+var rep6=document.getElementById('rep6');
+var repq6="B";
+
+var score=document.getElementById('score');
 
 if(q1==repq1) 
     {
@@ -25,10 +49,6 @@ if(q1==repq1)
         compteur==compteur
     }
 
-var q2= document.getElementById('q2').value;
-var rep1=document.getElementById('rep2');
-var repq2="Alfieri";
-
 if(q2==repq2) 
     {
 
@@ -44,10 +64,6 @@ if(q2==repq2)
         compteur==compteur
     }
 
-var q3= document.getElementById('q3').value;
-var rep3=document.getElementById('rep3');
-var repq3="Carlo";
-
 if(q3==repq3) 
     {
 
@@ -62,12 +78,8 @@ if(q3==repq3)
         $('#rep3').append("La bonne réponse est : "+repq3);  
         compteur==compteur
     }
-
-    var q4= document.getElementById('q4').value;
-    var rep4=document.getElementById('rep4');
-    var repq4="1926";
     
-    if(q4==repq4) 
+if(q4==repq4) 
         {
     
         $("#q4").css("backgroundColor","green");
@@ -82,11 +94,7 @@ if(q3==repq3)
             compteur==compteur
         }
 
-var q5= document.getElementById('q5').value;
-var rep5=document.getElementById('rep5');
-var repq5="Bologne";
-
-    if(q5==repq5) 
+if(q5==repq5) 
         {
     
         $("#q5").css("backgroundColor","green");
@@ -101,13 +109,22 @@ var repq5="Bologne";
             compteur==compteur
         }
 
+if(q6==repq6) 
+        {
+    
+        $("#q6").css("backgroundColor","green");
+        $("#q6").css("color","white");
+        compteur+=1;
+        }
+        else 
+        {
+            $("#q6").css("backgroundColor","red");
+            $("#q6").css("color","white");
+            $('#rep6').append("La bonne réponse est : "+repq6);  
+            compteur==compteur
+            $("#score").append("Votre score : "+compteur+" /6");
+        }
+
 }
-
-
-
-
-
-
-
 
 });
