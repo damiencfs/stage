@@ -301,6 +301,11 @@ h5{
     font-size: 12pt;
 
 }
+.reponse {
+    font-weight: 400;
+    font-size: 12pt;
+    color: white;
+}
 @media screen and (max-width : 800px) {
 
     body,html {

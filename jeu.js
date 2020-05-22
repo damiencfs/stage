@@ -21,7 +21,7 @@ if(q1==repq1)
     {
         $("#q1").css("backgroundColor","red");
         $("#q1").css("color","white");
-        $('#rep1').append(repq1); 
+        $('#rep1').append("La bonne réponse est : "+repq1); 
         compteur==compteur
     }
 
@@ -40,7 +40,7 @@ if(q2==repq2)
     {
         $("#q2").css("backgroundColor","red");
         $("#q2").css("color","white");
-        $('#rep2').append(repq2);  
+        $('#rep2').append("La bonne réponse est : "+repq2);  
         compteur==compteur
     }
 
@@ -59,7 +59,7 @@ if(q3==repq3)
     {
         $("#q3").css("backgroundColor","red");
         $("#q3").css("color","white");
-        $('#rep3').append(repq3);  
+        $('#rep3').append("La bonne réponse est : "+repq3);  
         compteur==compteur
     }
 
@@ -78,7 +78,7 @@ if(q3==repq3)
         {
             $("#q4").css("backgroundColor","red");
             $("#q4").css("color","white");
-            $('#rep4').append(repq4);  
+            $('#rep4').append("La bonne réponse est : "+repq4);  
             compteur==compteur
         }
 
@@ -97,7 +97,7 @@ var repq5="Bologne";
         {
             $("#q5").css("backgroundColor","red");
             $("#q5").css("color","white");
-            $('#rep5').append(repq4);  
+            $('#rep5').append("La bonne réponse est : "+repq5);  
             compteur==compteur
         }
 
