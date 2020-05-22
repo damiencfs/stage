@@ -258,6 +258,58 @@ textarea{
     margin-right: 7%;
 }
 
+#quizz input, h5{
+    margin-left: 10%;
+}
+
+h5{
+    font-size: 12pt;
+    margin-top: 0;
+}
+
+.propositions {
+    font-size: 12pt;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+#quizz input {
+    margin-bottom : 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    background-color: white;
+    color: black;
+}
+
+#quizz input[type="submit"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+}
+
+#quizz a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1%;
+    font-size: 12pt;
+
+}
+.reponse {
+    font-weight: 400;
+    font-size: 12pt;
+    color: white;
+}
+
+#quizz h3 {
+    text-align: center;
+}
 @media screen and (max-width : 800px) {
 
     body,html {
@@ -363,6 +415,37 @@ textarea{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    h5 {
+        font-size: 10pt;
+    }
+
+    #quizz input {
+        width: 20%;
+        flex-wrap: wrap;
+    }
+
+    #quizz input[type="submit"]{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40%;
+    }
+    #quizz a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        margin-top: 0;
+        margin-bottom: 3%;
+        font-size: 10pt;
+    
+    }
+    .reponse {
+        font-weight: 100;
+        font-size: 10pt;
+        color: white;
     }
 }
 
