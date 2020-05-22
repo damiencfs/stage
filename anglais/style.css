@@ -301,6 +301,11 @@ h5{
     font-size: 12pt;
 
 }
+
+#quizz a:hover {
+    color: black;
+}
+
 .reponse {
     font-weight: 400;
     font-size: 12pt;
