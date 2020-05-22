@@ -62,6 +62,45 @@ if(q3==repq3)
         $('#rep3').append(repq3);  
         compteur==compteur
     }
+
+    var q4= document.getElementById('q4').value;
+    var rep4=document.getElementById('rep4');
+    var repq4="1926";
+    
+    if(q4==repq4) 
+        {
+    
+        $("#q4").css("backgroundColor","green");
+        $("#q4").css("color","white");
+        compteur+=1;
+        }
+        else 
+        {
+            $("#q4").css("backgroundColor","red");
+            $("#q4").css("color","white");
+            $('#rep4').append(repq4);  
+            compteur==compteur
+        }
+
+var q5= document.getElementById('q5').value;
+var rep5=document.getElementById('rep5');
+var repq5="Bologne";
+
+    if(q5==repq5) 
+        {
+    
+        $("#q5").css("backgroundColor","green");
+        $("#q5").css("color","white");
+        compteur+=1;
+        }
+        else 
+        {
+            $("#q5").css("backgroundColor","red");
+            $("#q5").css("color","white");
+            $('#rep5').append(repq4);  
+            compteur==compteur
+        }
+
 }
 
 
